@@ -1,0 +1,25 @@
+{
+  "name": "personal-web-portfolio",
+  "version": "1.0.0",
+  "description": "A Web Portfolio Project about Vaughn Cedric L. Araneta.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CedricDeVon/Personal-Web-Portfolio.git"
+  },
+  "keywords": [
+    "Website",
+    "Portfolio",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Vaughn Cedric L. Araneta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CedricDeVon/Personal-Web-Portfolio/issues"
+  },
+  "homepage": "https://github.com/CedricDeVon/Personal-Web-Portfolio#readme"
+}
