@@ -7,46 +7,42 @@
     <link rel="icon" href="../assets/images/css.png"/>
     <title>Personal Web Portfolio</title>
 </head>
-<body class="min-w-screen text-light-1 bg-gradient-to-r from-dark-1 from-0% via-dark-2 via-50% to-dark-1 to-100%">
-    <header class="bg-dark-2">
-        <div class="h-32"></div>
+<body class="text-center text-sm md:text-lg lg:text-2xl 2xl:text-4xl text-light-1 bg-dark-2">
+    <header>
+        <div class="h-8 sm:h-12 md:h-16 lg:h-20 2xl:h-24"></div>
         <div class="h-1 bg-gradient-to-r from-transparent from-0% via-main-1 via-50% to-transparent to-100%"> </div>
     </header>
-    <main class="flex justify-center min-w-screen mx-auto">
-        <section class="sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xlmax-w-screen-xl">
-            <section class="min-h-screen grid grid-cols-2 contents-center">
-                <div class="mt-72 mb-auto">
-                    <p class="mb-12 text-8xl font-bold">
-                        Greetings;<span class="block text-main-1">Welcome!</span>
-                    </p>
-                    <p class="text-4xl">
-                        My name is <span class="font-bold text-main-1">Vaughn Cedric L. Araneta</span> - competitive programmer and aspiring Software Developer.
-                    </p>
+    <main class="flex justify-center min-w-screen mx-auto bg-gradient-to-r from-dark-1 from-0% via-dark-2 via-50% to-dark-1 to-100%">
+        <section class="max-w-64 sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-8xl 2xl:max-w-screen-xl">
+            <section class="mb-96 sm:text-left grid grid-cols-1 sm:grid-cols-2 contents-center">
+                <img class="mt-16 sm:mt-24 2xl:mt-40 max-w-40 sm:max-w-48 md:max-w-56 lg:max-w-72 2xl:max-w-96 mb-auto grayscale drop-shadow-2xl hover:grayscale-0 mx-auto object-contain rounded-full transition hover:brightness-110 hover:scale-110" src="../assets/images/author-portrait.jpg" alt="Vaughn Cedric L. Araneta" title="Vaughn Cedric L. Araneta"/>
+                <div class="mt-8 sm:mt-24 2xl:mt-40 mb-auto">
+                    <h1 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl font-bold">Greetings;<span class="block text-main-1">Welcome!</span></h1>
+                    <p>My name is <span class="font-bold text-main-1">Vaughn Cedric L. Araneta</span> - competitive programmer and aspiring Software Developer.</p>
                 </div>
-                <img class="mt-72 mb-auto grayscale drop-shadow-2xl hover:grayscale-0 mx-auto max-w-md object-contain rounded-full transition hover:brightness-110 hover:scale-110" src="../assets/images/author-portrait.jpg" alt="Vaughn Cedric L. Araneta" title="Vaughn Cedric L. Araneta"/>
             </section>
             <section class="mb-96">
-                <div class="mb-16">
-                    <h1 class="text-8xl font-bold">
+                <div class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 sm:text-left">
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl font-bold">
                         More<span class="block text-main-1">About Me</span>
                     </h1>
                 </div>
-                <div class="font-['Consolas'] text-4xl bg-dark-1 p-12 border border-solid rounded-3xl border-light-2">
-                    <div class="mb-12">
-                        <h2 class="mb-6">> Birthdate</h2>
+                <div class="text-left font-['Consolas'] bg-dark-1 p-4 md:p-6 lg:p-8 2xl:p-10 border border-solid rounded-2xl border-light-2">
+                    <div class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10">
+                        <h2 class="mb-1 sm:mb-2 lg:mb-4 2xl:mb-8">> Birthdate</h2>
                         <p class="text-main-1">April 1, 2024</p>
                     </div>
-                    <div class="mb-12">
-                        <h2 class="mb-6">> Gender</h2>
+                    <div class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10">
+                        <h2 class="mb-1 sm:mb-2 lg:mb-4 2xl:mb-8">> Gender</h2>
                         <p class="text-main-1">Male</p>
                     </div>
                     <div>
-                       <h2 class="mb-6">> Interests and Hobbies</h2>
+                       <h2 class="mb-1 sm:mb-2 lg:mb-4 2xl:mb-8">> Interests and Hobbies</h2>
                        <ol class="text-main-1">
-                           <li class="mb-6">Desktop Software Development</li>
-                           <li class="mb-6">Mobile Software Development</li>
-                           <li class="mb-6">Competitive Programming</li>
-                           <li class="mb-6">Blindfold Chess</li>
+                           <li class="mb-1 sm:mb-2 lg:mb-4 2xl:mb-8">Desktop Software Development</li>
+                           <li class="mb-1 sm:mb-2 lg:mb-4 2xl:mb-8">Mobile Software Development</li>
+                           <li class="mb-1 sm:mb-2 lg:mb-4 2xl:mb-8">Competitive Programming</li>
+                           <li class="mb-1 sm:mb-2 lg:mb-4 2xl:mb-8">Blindfold Chess</li>
                            <li>Oil Painting</li>
                        </ol>
                    </div>
@@ -54,202 +50,201 @@
                 <div class="h-1 bg-gradient-to-r from-transparent from-20% via-main-1 via-80% to-transparent to-100%"> </div>
             </section>
             <section class="mb-96">
-                <div class="mb-16 shadow-md text-center">
-                    <h1 class="mb-6 text-8xl font-bold">
+                <div class="mb-8 sm:mb-10 lg:mb-12 2xl:mb-14 shadow-md sm:text-left">
+                    <h1 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl font-bold">
                         Obtained <span class="text-main-1">Education</span>
                     </h1>
-                    <h2 class="text-6xl font-bold">Undergraduate <span class=" text-main-1">Level</span></h2>
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl font-bold">Undergraduate <span class=" text-main-1">Level</span></h2>
                 </div>
-                <section class="grid grid-cols-2 gap-6 text-4xl">
+                <section class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <section>
-                        <div class="border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md px-24 py-36 text-center">
-                            <img class="mx-auto mb-12 w-60 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/shs-adc.png" alt="Sacred Heart School - Ateneo De Cebu" title="Sacred Heart School - Ateneo De Cebu"/>
-                            <h3 class="mb-6 text-5xl font-semibold">
-                                <span class="block">Sacred Heart School - Ateneo</span>
-                                <span class="block">De Cebu</span>
-                            </h3>
-                            <p class="mb-12">2014 - 2016</p>
+                        <div class="border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md py-16">
+                            <img class="mx-auto mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 max-w-28 sm:max-w-32 md:max-w-36 lg:max-w-40 2xl:max-w-44 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/shs-adc.png" alt="Sacred Heart School - Ateneo De Cebu" title="Sacred Heart School - Ateneo De Cebu"/>
+                            <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-semibold">
+                                <span class="block">Sacred Heart School</span>
+                                <span class="block">Ateneo De Cebu</span>
+                            </h2>
+                            <p class="mb-1 sm:mb-2 lg:mb-4 2xl:mb-8">2014 - 2016</p>
                             <p class="font-bold">Canduman, Cebu</p>
                         </div>
                         <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
                     </section>
                     <section>
-                        <div class="border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md px-24 py-36 text-center">
-                            <img class="mx-auto mb-12 w-60 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/talc.png" alt="Tacloban Angelicum Learning Center" title="Tacloban Angelicum Learning Center"/>
-                            <h3 class="mb-6 text-5xl font-semibold">
+                        <div class="border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md py-16">
+                            <img class="mx-auto mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 max-w-28 sm:max-w-32 md:max-w-36 lg:max-w-40 2xl:max-w-44 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/talc.png" alt="Tacloban Angelicum Learning Center" title="Tacloban Angelicum Learning Center"/>
+                            <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-semibold">
                                 <span class="block">Tacloban Angelicum</span>
                                 <span class="block">Learning Center</span>
-                            </h3>
+                            </h2>
                             <p>2011 - 2013</p>
-                            <p class="mb-12">2017 - 2020</p>
+                            <p class="mb-1 sm:mb-2 lg:mb-4 2xl:mb-8">2017 - 2020</p>
                             <p class="font-bold">Tacloban, Leyte</p>
                         </div>
                         <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
                     </section>
                     <section>
-                        <div class="border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md px-24 py-36 text-center">
-                            <img class="mx-auto mb-12 w-60 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/mnhs.png" alt="Mahaplag National High School" title="Mahaplag National High School"/>
-                            <h3 class="mb-6 text-5xl font-semibold">
+                        <div class="border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md py-16">
+                            <img class="mx-auto mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 max-w-28 sm:max-w-32 md:max-w-36 lg:max-w-40 2xl:max-w-44 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/mnhs.png" alt="Mahaplag National High School" title="Mahaplag National High School"/>
+                            <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-semibold">
                                 <span class="block">Mahaplag National</span>
                                 <span class="block">High School</span>
-                            </h3>
+                            </h2>
                             <p>2016 - 2017</p>
-                            <p class="mb-12">2020 - 2022</p>
+                            <p class="mb-1 sm:mb-2 lg:mb-4 2xl:mb-8">2020 - 2022</p>
                             <p class="font-bold">Mahaplag, Leyte</p>
                         </div>
                         <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
                     </section>
                     <section>
-                        <div class="border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md px-24 py-36 text-center">
-                            <img class="mx-auto mb-12 w-60 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/vsu.png" alt="Visayas State University" title="Visayas State University"/>
-                            <h3 class="mb-6 text-5xl font-semibold">
+                        <div class="border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md py-16">
+                            <img class="mx-auto mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 max-w-28 sm:max-w-32 md:max-w-36 lg:max-w-40 2xl:max-w-44 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/vsu.png" alt="Visayas State University" title="Visayas State University"/>
+                            <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-semibold">
                                 <span class="block">Visayas State</span>
                                 <span class="block">University</span>
-                            </h3>
-                            <p class="mb-12">2022 - Ongoing</p>
+                            </h2>
+                            <p class="mb-1 sm:mb-2 lg:mb-4 2xl:mb-8">2022 - Ongoing</p>
                             <p class="font-bold">Baybay, Leyte</p>
                         </div>
                         <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
                     </section>
                 </section>
             </section>
-            <section class="mb-96 text-4xl">
-                <div class="mb-16 text-left">
-                    <h1 class="text-8xl font-bold">
+
+            <section class="mb-96">
+                <div class="mb-8 sm:mb-10 lg:mb-12 2xl:mb-14 shadow-md sm:text-left">
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl font-bold">
                         <span class="block">Notable</span>
-                        <span class="block text-main-1">Certifications</span>
+                        <span class="block text-main-1">Certificates</span>
                     </h1>
                 </div>
-                <div class="mb-12">
-                    <div class="p-24 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
-                        <div class="flex align-top">
-                            <img class="mb-auto w-40 rounded-3xl object-contain" src="../assets/images/codewithmosh.png" alt="CodeWithMosh" title="CodeWithMosh"/>
-                            <div class="ml-24">
-                                <h2 class="mb-6 text-5xl font-bold">CodeWithMosh</h2>
-                                <div>
-                                    <p class="mb-4"><span class="text-main-1 mr-2">2020</span> Complete Python Mastery</p>
-                                    <p class="mb-4"><span class="text-main-1 mr-2">2020</span> The Ultimate Git Course</p>
-                                    <p class="mb-4"><span class="text-main-1 mr-2">2020</span> Mastering Design Patterns</p>
-                                    <p class="mb-4"><span class="text-main-1 mr-2">2020</span> The Ultimate C# Mastery Series</p>
-                                    <p><span class="text-main-1 mr-2">2020</span> Clean Code and Refactoring</p>
-                                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <div class="min-h-full border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md py-16">
+                            <img class="mx-auto mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 max-w-28 sm:max-w-32 md:max-w-36 lg:max-w-40 2xl:max-w-44 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/codewithmosh.png" alt="CodeWithMosh" title="CodeWithMosh"/>
+                            <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold">
+                                CodeWithMosh
+                            </h2>
+                            <div>
+                                <p class="text-main-1 font-bold">2020</p>
+                                <p>Complete Python Mastery</p>
+                                <p>Ultimate Git Course</p>
+                                <p>Mastering Design Patterns</p>
+                                <p>Ultimate C# Series</p>
+                                <p>Clean Code and Refactoring</p>
                             </div>
                         </div>
+                        <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
                     </div>
-                    <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
+                    <div>
+                        <div class="min-h-full border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md py-16">
+                            <img class="mx-auto mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 max-w-28 sm:max-w-32 md:max-w-36 lg:max-w-40 2xl:max-w-44 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/neo4j.png" alt="Neo4j" title="Neo4j"/>
+                            <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold">
+                                <span class="block">Neo4j</span>
+                                <span class="block">Graph Academy</span>
+                            </h2>
+                            <div>
+                                <p class="text-main-1 font-bold">2024</p>
+                                <p>Neo4j with Python</p>
+                                <p>Neo4j with Node.js</p>
+                                <p>Neo4j with TypScript</p>
+                            </div>
+                        </div>
+                        <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
+                    </div>
+                    <div>
+                        <div class="min-h-full border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md py-16">
+                            <img class="mx-auto mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 max-w-28 sm:max-w-32 md:max-w-36 lg:max-w-40 2xl:max-w-44 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/datacamp.jpg" alt="Datacamp" title="Datacamp"/>
+                            <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold">
+                                <span class="block">DataCamp</span>
+                            </h2>
+                            <div>
+                                <p class="text-main-1 font-bold">2024</p>
+                                <p>Data Science R Basics</p>
+                            </div>
+                        </div>
+                        <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
+                    </div>
+                    <div>
+                        <div class="min-h-full border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md py-16">
+                            <img class="mx-auto mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 max-w-28 sm:max-w-32 md:max-w-36 lg:max-w-40 2xl:max-w-44 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/cisco.png" alt="Cisco" title="Cisco"/>
+                            <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold">
+                                <span class="block">Cisco:</span>
+                                <span class="block">Network Academy</span>
+                            </h2>
+                            <div>
+                                <p class="text-main-1 font-bold">2024</p>
+                                <p>Introduction to Data Science</p>
+                            </div>
+                        </div>
+                        <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
+                    </div>
+                    <div>
+                        <div class="min-h-full border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md py-16">
+                            <img class="mx-auto mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 max-w-28 sm:max-w-32 md:max-w-36 lg:max-w-40 2xl:max-w-44 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/edx.png" alt="Edx" title="Edx"/>
+                            <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold">
+                                <span class="block">Edx</span>
+                            </h2>
+                            <div>
+                                <p class="text-main-1 font-bold">2024</p>
+                                <p>Data Science R Basics</p>
+                            </div>
+                        </div>
+                        <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
+                    </div>
+                    <div>
+                        <div class="min-h-full border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md py-16">
+                            <img class="mx-auto mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 max-w-28 sm:max-w-32 md:max-w-36 lg:max-w-40 2xl:max-w-44 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/qt.webp" alt="Qt Academy" title="Qt Academy"/>
+                            <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold">
+                                <span class="block">Qt Academy</span>
+                            </h2>
+                            <div>
+                                <p class="text-main-1 font-bold">2024</p>
+                                <p>Ready, Set, Qt!</p>
+                            </div>
+                        </div>
+                        <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
+                    </div>
+                    <div>
+                        <div class="min-h-full border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md py-16">
+                            <img class="mx-auto mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 max-w-28 sm:max-w-32 md:max-w-36 lg:max-w-40 2xl:max-w-44 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/microsoft.png" alt="Microsoft Learn" title="Microsoft Learn"/>
+                            <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold">
+                                <span class="block">Microsoft Learn</span>
+                            </h2>
+                            <div>
+                                <p class="text-main-1 font-bold">2024</p>
+                                <p>Take your first steps with Rust</p>
+                            </div>
+                        </div>
+                        <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
+                    </div>
                 </div>
-                <div class="mb-12">
-                    <div class="p-24 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
-                        <div class="flex align-top">
-                            <img class="mb-auto w-40 rounded-3xl object-contain" src="../assets/images/neo4j.png" alt="Neo4j" title="Neo4j"/>
-                            <div class="ml-24">
-                                <h2 class="mb-6 text-5xl font-bold">Neo4j Graph Academy</h2>
-                                <div>
-                                    <p class="mb-4"><span class="text-main-1 mr-2">2024</span> Neo4j Applications with Node.js</p>
-                                    <p class="mb-4"><span class="text-main-1 mr-2">2024</span> Neo4j Applications with TypeScript</p>
-                                    <p><span class="text-main-1 mr-2">2024</span> Neo4j Applications with Python</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
-                </div>
-                <div class="mb-12">
-                    <div class="p-24 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
-                        <div class="flex align-top">
-                            <img class="mb-auto w-40 rounded-3xl object-contain" src="../assets/images/cisco.png" alt="Cisco" title="Cisco"/>
-                            <div class="ml-24">
-                                <h2 class="mb-6 text-5xl font-bold">Cisco: Networking Academy</h2>
-                                <div>
-                                    <p><span class="text-main-1 mr-2">2024</span> Introduction to Data Science</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
-                </div>
-                <div class="mb-12">
-                    <div class="p-24 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
-                        <div class="flex align-top">
-                            <img class="mb-auto w-40 rounded-3xl object-contain" src="../assets/images/datacamp.jpg" alt="Datacamp" title="Datacamp"/>
-                            <div class="ml-24">
-                                <h2 class="mb-6 text-5xl font-bold">DataCamp</h2>
-                                <div>
-                                    <p><span class="text-main-1 mr-2">2024</span> Data Science R Basics</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
-                </div>
-                <div class="mb-12">
-                    <div class="p-24 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
-                        <div class="flex align-top">
-                            <img class="mb-auto w-40 rounded-3xl object-contain" src="../assets/images/edx.png" alt="Edx" title="Edx"/>
-                            <div class="ml-24">
-                                <h2 class="mb-6 text-5xl font-bold">Edx</h2>
-                                <div>
-                                    <p><span class="text-main-1 mr-2">2024</span> Data Science R Basics</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
-                </div>
-                <div class="mb-12">
-                    <div class="p-24 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
-                        <div class="flex align-top">
-                            <img class="mb-auto w-40 rounded-3xl object-contain" src="../assets/images/qt.webp" alt="Qt" title="Qt"/>
-                            <div class="ml-24">
-                                <h2 class="mb-6 text-5xl font-bold">Qt Academy</h2>
-                                <div>
-                                    <p><span class="text-main-1 mr-2">2024</span> Ready, Set, Qt!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
-                </div>
-                <div class="mb-12">
-                    <div class="p-24 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
-                        <div class="flex align-top">
-                            <img class="mb-auto w-40 rounded-3xl object-contain" src="../assets/images/microsoft.png" alt="Microsoft" title="Microsoft"/>
-                            <div class="ml-24">
-                                <h2 class="mb-6 text-5xl font-bold">Microsoft Learn</h2>
-                                <div>
-                                    <p><span class="text-main-1 mr-2">2024</span> Take your first steps with Rust</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
-                </div>     
             </section>
-            <section class="mb-96 text-4xl text-center">
-                <div class="mb-16">
-                    <h1 class="text-8xl font-bold">
+
+            <section class="mb-96">
+                <div class="mb-8 sm:mb-10 lg:mb-12 2xl:mb-14 shadow-md sm:text-left">
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl font-bold">
                         <span class="block">Awards &</span>
                         <span class="block text-main-1">Achievements</span>
                     </h1>
                 </div>
-                <div class="grid grid-cols-1 gap-5">
-                    <div class="mb-12">
-                        <div class="border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md px-24 pt-24 pb-36">
-                            <img class="mx-auto mb-12 w-60 object-contain m-2 transition hover:brightness-125 hover:scale-125" src="../assets/images/cs3.png" alt="Computer Science Students Society" title="Computer Science Students Society"/>
-                            <h2 class="mb-12 text-5xl font-bold">
-                                <span class="mb-4 block">C/C++ CS3</span>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <div class="min-h-full border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md py-16">
+                            <img class="mx-auto mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 max-w-28 sm:max-w-32 md:max-w-36 lg:max-w-40 2xl:max-w-44 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/cs3.png" alt="Computer Science Students Society" title="Computer Science Students Society"/>
+                            <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold">
+                                <span class="block">C/C++ CS3</span>
                                 <span class="block">Coding Competition</span>
                             </h2>
-                            <p class="mb-4"><span class="text-main-1 font-bold">7th Placer</span> - January 2022</p>
+                            <p><span class="text-main-1 font-bold">7th Placer</span> - January 2022</p>
                             <p><span class="text-main-1 font-bold">2nd Placer</span> - January 2024</p>
                         </div>
                         <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
                     </div>
                     <div>
-                        <div class="border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md px-24 pt-24 pb-36">
-                            <img class="mx-auto mb-12 h-40 object-contain m-2 transition hover:brightness-125 hover:scale-125" src="../assets/images/psite.png" alt="Computer Science Students Society" title="Computer Science Students Society"/>
-                            <h2 class="mb-12 text-5xl font-bold">
-                                <span class="mb-4 block">Eastern Visayas</span>
+                        <div class="min-h-full border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md py-16">
+                            <img class="mx-auto mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 max-w-28 sm:max-w-32 md:max-w-36 lg:max-w-40 2xl:max-w-44 object-contain transition hover:brightness-110 hover:scale-110" src="../assets/images/psite.png" alt="Computer Science Students Society" title="Computer Science Students Society"/>
+                            <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold">
+                                <span class="block">Eastern Visayas</span>
                                 <span class="block">Coding Olympics</span>
                             </h2>
                             <p><span class="text-main-1 font-bold">2nd Placer</span> - October 2023</p>
@@ -258,159 +253,159 @@
                     </div>
                 </div>
             </section>
-            <section class="mb-96 text-6xl">
-                <div class="mb-16 text-left">
-                    <h1 class="text-8xl font-bold">
+            <section class="mb-96">
+                <div class="mb-8 sm:mb-10 lg:mb-12 2xl:mb-14">
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl sm:text-left font-bold">
                         <span class="block">Notable</span>
                         <span class="block text-main-1">Skill Sets</span>
                     </h1>
                 </div>
-                <div class="mb-12">
-                    <div class="p-24 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
-                        <h2 class="mb-12 font-bold">Web Development</h2>
-                        <div class="flex flex-wrap justify-start">
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/html5.png" alt="HTML5" title="HTML5"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/css.png" alt="CSS" title="CSS"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/javascript.png" alt="JavaScript" title="JavaScript"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/typescript.png" alt="TypeScript" title="TypeScript"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/sass.png" alt="Sass" title="Sass"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/tailwindcss.png" alt="Tailwind CSS" title="Tailwind CSS"/>
-                            <img class="h-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/bootstrap.png" alt="Bootstrap" title="Bootstrap"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/vue.png" alt="Vue" title="Vue"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/nuxt.png" alt="Nuxt" title="Nuxt"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/vite.png" alt="Vite" title="Vite"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/nodejs.png" alt="NodeJs" title="NodeJs"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/npm.png" alt="NPM" title="NPM"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110 invert" src="../assets/images/vercel.png" alt="Vercel" title="Vercel"/>
+                <div class="mb-8 sm:mb-10 lg:mb-12 2xl:mb-14">
+                    <div class="p-8 md:p-10 lg:p-12 2xl:p-14 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
+                        <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl">Web Development</h2>
+                        <div class="flex flex-wrap justify-center">
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/html5.png" alt="HTML5" title="HTML5"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/css.png" alt="CSS" title="CSS"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/javascript.png" alt="JavaScript" title="JavaScript"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/typescript.png" alt="TypeScript" title="TypeScript"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/sass.png" alt="Sass" title="Sass"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/tailwindcss.png" alt="Tailwind CSS" title="Tailwind CSS"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/bootstrap.png" alt="Bootstrap" title="Bootstrap"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/vue.png" alt="Vue" title="Vue"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/nuxt.png" alt="Nuxt" title="Nuxt"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/vite.png" alt="Vite" title="Vite"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/nodejs.png" alt="NodeJs" title="NodeJs"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/npm.png" alt="NPM" title="NPM"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110 invert" src="../assets/images/vercel.png" alt="Vercel" title="Vercel"/>
                         </div>
                     </div>
                     <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
                 </div>
-                <div class="mb-12">
-                    <div class="p-24 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
-                        <h2 class="mb-12 font-bold">Desktop Development</h2>
-                        <div class="flex flex-wrap justify-start">
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/cs.png" alt="C#" title="C#"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/dotnet.png" alt=".NET" title=".NET"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/win-forms.png" alt=".WinForms" title=".WinForms"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/godot.png" alt="Godot" title="Godot"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/nugget.png" alt="Nugget" title="Nugget"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/python.png" alt="Python" title="Python"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/c.png" alt="C" title="C"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/c++.png" alt="C++" title="C++"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/qt.webp" alt="Qt" title="Qt"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/cmake.png" alt="Cmake" title="Cmake"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/vcpkg.png" alt="Vcpkg" title="Vcpkg"/>
+                <div class="mb-8 sm:mb-10 lg:mb-12 2xl:mb-14">
+                    <div class="p-8 md:p-10 lg:p-12 2xl:p-14 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
+                        <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl">Desktop Development</h2>
+                        <div class="flex flex-wrap justify-center">
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/cs.png" alt="C#" title="C#"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/dotnet.png" alt=".NET" title=".NET"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/win-forms.png" alt=".WinForms" title=".WinForms"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/godot.png" alt="Godot" title="Godot"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/nugget.png" alt="Nugget" title="Nugget"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/python.png" alt="Python" title="Python"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/c.png" alt="C" title="C"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/c++.png" alt="C++" title="C++"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/qt.webp" alt="Qt" title="Qt"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/cmake.png" alt="Cmake" title="Cmake"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/vcpkg.png" alt="Vcpkg" title="Vcpkg"/>
                         </div>
                     </div>
                     <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
                 </div>
-                <div class="mb-12">
-                    <div class="p-24 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
-                        <h2 class="mb-12 font-bold">Data Science</h2>
-                        <div class="flex flex-wrap justify-start">
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/excel.png" alt="Excel" title="Excel"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/python.png" alt="Python" title="Python"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/r.png" alt="R" title="R"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/matplotlib.png" alt="Matplotlib" title="Matplotlib"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/numpy.png" alt="Numpy" title="Numpy"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/scipy.png" alt="Scipy" title="Scipy"/>
+                <div class="mb-8 sm:mb-10 lg:mb-12 2xl:mb-14">
+                    <div class="p-8 md:p-10 lg:p-12 2xl:p-14 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
+                        <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl">Data Science</h2>
+                        <div class="flex flex-wrap justify-center">
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/excel.png" alt="Excel" title="Excel"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/python.png" alt="Python" title="Python"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/r.png" alt="R" title="R"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/matplotlib.png" alt="Matplotlib" title="Matplotlib"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/numpy.png" alt="Numpy" title="Numpy"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/scipy.png" alt="Scipy" title="Scipy"/>
                         </div>
                     </div>
                     <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
                 </div>
-                <div class="mb-12">
-                    <div class="p-24 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
-                        <h2 class="mb-12 font-bold">Embedded Systems</h2>
-                        <div class="flex flex-wrap justify-start">
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/c.png" alt="C" title="C"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/c++.png" alt="C++" title="C++"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/arduino.png" alt="Arduino" title="Arduino"/>
+                <div class="mb-8 sm:mb-10 lg:mb-12 2xl:mb-14">
+                    <div class="p-8 md:p-10 lg:p-12 2xl:p-14 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
+                        <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl">Embedded Systems</h2>
+                        <div class="flex flex-wrap justify-center">
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/c.png" alt="C" title="C"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/c++.png" alt="C++" title="C++"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/arduino.png" alt="Arduino" title="Arduino"/>
                         </div>
                     </div>
                     <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
                 </div>
-                <div class="mb-12">
-                    <div class="p-24 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
-                        <h2 class="mb-12 font-bold">Databases</h2>
-                        <div class="flex flex-wrap justify-start">
-                            <img class="w-36 h-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/firebase.png" alt="Firebase" title="Firebase"/>
-                            <img class="w-36 h-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/mongodb.png" alt="Mongodb" title="Mongodb"/>
-                            <img class="w-36 h-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/mysql.png" alt="MySQL" title="MySQL"/>
-                            <img class="w-36 h-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/excel.png" alt="Excel" title="Excel"/>
+                <div class="mb-8 sm:mb-10 lg:mb-12 2xl:mb-14">
+                    <div class="p-8 md:p-10 lg:p-12 2xl:p-14 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
+                        <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl">Databases</h2>
+                        <div class="flex flex-wrap justify-center">
+                            <img class="max-h-16 sm:max-h-20 md:max-h-24 lg:max-h-28 2xl:max-h-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/firebase.png" alt="Firebase" title="Firebase"/>
+                            <img class="max-h-16 sm:max-h-20 md:max-h-24 lg:max-h-28 2xl:max-h-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/mongodb.png" alt="Mongodb" title="Mongodb"/>
+                            <img class="max-h-16 sm:max-h-20 md:max-h-24 lg:max-h-28 2xl:max-h-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/mysql.png" alt="MySQL" title="MySQL"/>
+                            <img class="max-h-16 sm:max-h-20 md:max-h-24 lg:max-h-28 2xl:max-h-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/excel.png" alt="Excel" title="Excel"/>
+                            <img class="max-h-16 sm:max-h-20 md:max-h-24 lg:max-h-28 2xl:max-h-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/neo4j.png" alt="Neo4j" title="Neo4j"/>
                         </div>
                     </div>
                     <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
                 </div>
-                <div class="mb-12">
-                    <div class="p-24 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
-                        <h2 class="mb-12 font-bold">Testing</h2>
-                        <div class="flex flex-wrap justify-start">
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/vitest.png" alt="Vitest" title="Vitest"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/cypress.png" alt="Cypress" title="Cypress"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/xunit.png" alt="Xunit" title="Xunit"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/jest.png" alt="Jest" title="Jest"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/postman.png" alt="Postman" title="Postman"/>
+                <div class="mb-8 sm:mb-10 lg:mb-12 2xl:mb-14">
+                    <div class="p-8 md:p-10 lg:p-12 2xl:p-14 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
+                        <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl">Testing</h2>
+                        <div class="flex flex-wrap justify-center">
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/vitest.png" alt="Vitest" title="Vitest"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/cypress.png" alt="Cypress" title="Cypress"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/xunit.png" alt="Xunit" title="Xunit"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/jest.png" alt="Jest" title="Jest"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/postman.png" alt="Postman" title="Postman"/>
                         </div>
                     </div>
                     <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
                 </div>
-                <div class="mb-12">
-                    <div class="p-24 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
-                        <h2 class="mb-12 font-bold">Collaboration</h2>
-                        <div class="flex flex-wrap justify-start">
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/git.png" alt="Git" title="Git"/>
-                            <img class="w-36 invert object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/github.png" alt="Github" title="Github"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/github-desktop.png" alt="Github Desktop" title="Github Desktop"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/gitcracken.png" alt="Gitcracken" title="Gitcracken"/>
+                <div class="mb-8 sm:mb-10 lg:mb-12 2xl:mb-14">
+                    <div class="p-8 md:p-10 lg:p-12 2xl:p-14 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
+                        <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl">Collaboration</h2>
+                        <div class="flex flex-wrap justify-center">
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/git.png" alt="Git" title="Git"/>
+                            <img class="max-w-16 invert sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/github.png" alt="Github" title="Github"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/github-desktop.png" alt="Github Desktop" title="Github Desktop"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/gitcracken.png" alt="Gitcracken" title="Gitcracken"/>
                         </div>
                     </div>
                     <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
                 </div>
-                <div class="mb-12">
-                    <div class="p-24 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
-                        <h2 class="mb-12 font-bold">Code Editors & IDEs</h2>
-                        <div class="flex flex-wrap justify-start">
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/visual-studio.png" alt="Visual Studio" title="Visual Studio"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/vscode.png" alt="Visual Studio Code" title="Visual Studio Code"/>
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/sublime-text.png" alt="Sublimte Text" title="Sublimte Text"/>
+                <div class="mb-8 sm:mb-10 lg:mb-12 2xl:mb-14">
+                    <div class="p-8 md:p-10 lg:p-12 2xl:p-14 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
+                        <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl">Code Editors & IDEs</h2>
+                        <div class="flex flex-wrap justify-center">
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/visual-studio.png" alt="Visual Studio" title="Visual Studio"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/vscode.png" alt="Visual Studio Code" title="Visual Studio Code"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/sublime-text.png" alt="Sublimte Text" title="Sublimte Text"/>
                             
                         </div>
                     </div>
                     <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
                 </div>
-                <div class="mb-12">
-                    <div class="p-24 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
-                        <h2 class="mb-12 font-bold">UI / UX Design</h2>
-                        <div class="flex flex-wrap justify-start">
-                            <img class="w-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/figma.png" alt="Figma" title="Figma"/>
-                            <img class="h-36 object-contain p-4 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/canva.png" alt="Canva" title="Canva"/>
+                <div class="mb-8 sm:mb-10 lg:mb-12 2xl:mb-14">
+                    <div class="p-8 md:p-10 lg:p-12 2xl:p-14 border border-solid rounded-3xl border-light-2 from-dark-2 to-dark-1 bg-gradient-to-b shadow-md">
+                        <h2 class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl">UI / UX Design</h2>
+                        <div class="flex flex-wrap justify-center">
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/figma.png" alt="Figma" title="Figma"/>
+                            <img class="max-w-16 sm:max-w-20 md:max-w-24 lg:max-w-28 2xl:max-w-32 object-contain p-2 my-auto transition hover:brightness-110 hover:scale-110" src="../assets/images/canva.png" alt="Canva" title="Canva"/>
                         </div>
                     </div>
                     <div class="h-1 bg-gradient-to-r from-transparent from-10% via-main-1 via-80% to-transparent to-100%"> </div>
                 </div>
             </section>
-            <section class="min-w-screen mb-96">
-                <div class="mb-16 shadow-md text-left">
-                    <h1 class="text-8xl font-bold">
+            <section class="mb-96">
+                <div class="mb-4 sm:text-left sm:m-6 lg:m-8 2xl:m-10 shadow-md">
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl font-bold">
                         My<span class="block text-main-1">Contacts</span>
                     </h1>
                 </div>
-                <div class="font-['Consolas'] text-4xl bg-dark-1 p-12 border border-solid rounded-3xl border-light-2">
-                    <div class="mb-12">
-                        <h2 class="mb-6">> Emails</h2>
+                <div class="text-left font-['Consolas'] bg-dark-1 p-4 md:p-6 lg:p-8 2xl:p-10 border border-solid rounded-2xl border-light-2">
+                    <div class="mb-4 sm:mb-6 lg:mb-8 2xl:mb-10">
+                        <h2 class="mb-1 sm:mb-2 lg:mb-4 2xl:mb-8">> Emails</h2>
                         <ul class="text-main-1">
-                            <li class="mb-6">22-1-01408@vsu.edu.ph</li>
-                            <li>vaughncedriclipardoaraneta@gmail.com</li>
+                            <li>22-1-01408@vsu.edu.ph</li>
                         </ul>
                    </div>
                    <div>
-                        <h2 class="mb-6">> Profiles</h2>
+                        <h2 class="mb-1 sm:mb-2 lg:mb-4 2xl:mb-8">> Profiles</h2>
                         <ul class="text-main-1">
-                           <li class="mb-6">
+                           <li class="mb-1 sm:mb-2 lg:mb-4 2xl:mb-8">
                                 <a href="https://www.linkedin.com/in/vaughn-cedric-araneta-901963232/">Linkedin</a>
                             </li>
-                            <li class="mb-6">
+                            <li class="mb-1 sm:mb-2 lg:mb-4 2xl:mb-8">
                                 <a href="https://github.com/CedricDeVon">GitHub</a>
                             </li>
                             <li>
@@ -423,9 +418,9 @@
             </section>
         </section>
     </main>
-    <footer class="bg-dark-2">
+    <footer>
         <div class="h-1 bg-gradient-to-r from-transparent from-0% via-main-1 via-50% to-transparent to-100%"> </div>
-        <div class="h-96"></div>
+        <div class="h-60 lg:h-72 2xl:h-96"></div>
     </footer>
 </body>
 </html>
