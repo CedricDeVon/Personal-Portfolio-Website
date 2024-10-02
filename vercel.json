@@ -1,0 +1,8 @@
+{
+    "trailingSlash": false,
+    "includeFiles": ["assets/*"],
+    "rewrites": [
+        {
+        }
+    ]
+}
