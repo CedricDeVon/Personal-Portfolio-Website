@@ -12,10 +12,11 @@
     "url": "git+https://github.com/CedricDeVon/Personal-Web-Portfolio.git"
   },
   "keywords": [
-    "Website",
-    "Portfolio",
+    "Vaughn Cedric L. Araneta",
     "HTML",
-    "CSS"
+    "CSS",
+    "Tailwind CSS",
+    "Portfolio"
   ],
   "author": "Vaughn Cedric L. Araneta",
   "license": "ISC",
