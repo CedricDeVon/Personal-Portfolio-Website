@@ -2,7 +2,7 @@
 /** @type {import('tailwindcss').Config} */
 
 export default {
-  content: ['./public/*.html'],
+  content: ['./*.html'],
   theme: {
     extend: {
       colors: {
@@ -14,7 +14,7 @@ export default {
         "main-1": '#24F143',
         "main-2": '#05742A',
         "main-3": '#9124F1',
-      }
+      },
     },
   },
   plugins: [],

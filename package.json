@@ -5,18 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "npx tailwindcss -i ./assets/css/style.css -o ./public/output.css --watch"
+    "dev": "npx tailwindcss -i ./assets/css/style.css -o ./output.css --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CedricDeVon/Personal-Web-Portfolio.git"
   },
   "keywords": [
-    "Vaughn Cedric L. Araneta",
-    "HTML",
-    "CSS",
-    "Tailwind CSS",
-    "Portfolio"
+    "Vaughn Cedric L. Araneta", "HTML", "CSS", "Tailwind CSS", "Portfolio"
   ],
   "author": "Vaughn Cedric L. Araneta",
   "license": "ISC",
